@@ -5,7 +5,7 @@ import gl51.service.PhotoService
 import gl51.service.UploadCloudService
 
 import javax.inject.Inject
-
+@Singleton
 class UploadCloud implements UploadCloudService{
     @Inject
     PhotoService photoService
