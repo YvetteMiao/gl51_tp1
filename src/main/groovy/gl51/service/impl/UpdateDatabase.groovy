@@ -4,7 +4,7 @@ import gl51.service.PhotoService
 import gl51.service.UpdateDbService
 
 import javax.inject.Inject
-
+@Singleton
 class UpdateDatabase implements UpdateDbService{
     @Inject
     PhotoService photoService
